@@ -1,4 +1,4 @@
-let Oled = require('oled-ssd1306-i2c')
+let Oled = require('oled-i2c-bus')
 let font = require('oled-font-5x7')
 
 function display(driver, s) {
@@ -7,7 +7,8 @@ function display(driver, s) {
 }
 
 let oled = new Oled()
-let counter = 0
+oled.clearDisplay()
 
-setInterval(display, 1000, oled, 'This is call number ' + counter++)
+let counter = 0
+setInterval(display, 1000, oled, 'This is call number ' + ++counter)
 

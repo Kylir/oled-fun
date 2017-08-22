@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies" : {
     "oled-font-5x7": "1.0.0",
-    "oled-ssd1306-i2c": "1.0.6"
+    "oled-i2c-bus": "1.0.10"
   }
 }
