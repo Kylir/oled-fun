@@ -4,12 +4,16 @@
   "description": "Having fun with the Adafruit pi-oled",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Jason Forest",
   "license": "MIT",
-  "dependencies" : {
+  "dependencies": {
     "oled-font-5x7": "1.0.0",
     "oled-i2c-bus": "1.0.10"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.5.0"
   }
 }
