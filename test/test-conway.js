@@ -9,8 +9,8 @@ describe('conway', () => {
     describe('generateEmptyWorld', () => {
         it('should return a two dimentional array with the correct sizes', () => {
             let cells = conway.generateEmptyWorld()
-            assert(cells.length === c.WIDTH)
-            assert((cells[0]).length === c.HEIGHT)
+            assert(cells.length === c.HEIGHT)
+            assert((cells[0]).length === c.WIDTH)
         })
         it('should have only zeros', () => {
             let cells = conway.generateEmptyWorld()
@@ -23,8 +23,8 @@ describe('conway', () => {
     describe('generateRandomWorld', () => {
         it('should return a two dimentional array with the correct sizes', () => {
             let cells = conway.generateRandomWorld()
-            assert(cells.length === c.WIDTH)
-            assert((cells[0]).length === c.HEIGHT)
+            assert(cells.length === c.HEIGHT)
+            assert((cells[0]).length === c.WIDTH)
         })
         it('should return an array of 1 and 0 only', () => {
             let cells = conway.generateRandomWorld()
@@ -74,7 +74,7 @@ describe('conway', () => {
         
         it('should correctly count the number of neighbours for a high border cell with no neighbours', () => {
             let cells = conway.generateEmptyWorld()
-            let n = conway.numberOfNeighbours(cells, c.WIDTH, c.HEIGHT)
+            let n = conway.numberOfNeighbours(cells, c.HEIGHT, c.WIDTH)
             assert(n === 0)
         })
         it('should correctly count the number of neighbours for a high border cell with 3 neighbours', () => {

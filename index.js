@@ -1,3 +1,6 @@
+'use strict'
+
+/*
 let Oled = require('oled-i2c-bus')
 let font = require('oled-font-5x7')
 let i2c = require('i2c-bus'),
@@ -20,3 +23,20 @@ oled.clearDisplay()
 
 let counter = 0
 setInterval(display, 1000, oled, font, 'This is call number ' + ++counter)
+*/
+
+const conway = require('./lib/conway')
+const utils = require('./lib/utils')
+
+let cells = conway.generateRandomWorld()
+
+utils.logWorld(cells)
+
+function step() {
+    cells = conway.evolveOneStep(cells)
+    utils.logWorld(cells)
+}
+
+setInterval(step, 300)
+
+
