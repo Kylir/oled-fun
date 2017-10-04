@@ -1,3 +1,5 @@
+/* jshint undef: true, node: true, esnext: true, asi: true */
+
 'use strict'
 
 let constants = {
