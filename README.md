@@ -5,6 +5,7 @@ This is a simple NodeJS application to run a [Conway's game](https://en.wikipedi
 The screen I use is the [PiOled from Adafruit](https://www.adafruit.com/product/3527).
 you can also buy it from our [pirate friends from Pimoroni](https://shop.pimoroni.com/collections/raspberry-pi/products/adafruit-pioled-128x32-monochrome-oled-add-on-for-raspberry-pi).
 
+![Image of oled-conway](https://github.com/Kylir/oled-fun/raw/master/img/oled-conway.jpg)
 
 ## Magic
 
@@ -55,4 +56,4 @@ npm test
 
 + Why is there no semi colons?
 
-You don't need them in Javascript. Try for few weeks... 
+You don't need them in Javascript. Try it for few weeks and tell me you want to go back... 
