@@ -5,6 +5,19 @@ This is a simple NodeJS application to run a [Conway's game](https://en.wikipedi
 The screen I use is the [PiOled from Adafruit](https://www.adafruit.com/product/3527).
 you can also buy it from our [pirate friends from Pimoroni](https://shop.pimoroni.com/collections/raspberry-pi/products/adafruit-pioled-128x32-monochrome-oled-add-on-for-raspberry-pi).
 
+## TLDR
+
+```
+git clone https://github.com/Kylir/oled-fun.git
+cd oled-fun
+npm install
+node lib/oled-conway.js
+```
+
+## In action
+
+Look at this! So tiny! So useless! So beautiful!
+
 ![Image of oled-conway](https://github.com/Kylir/oled-fun/raw/master/img/oled-conway.jpg)
 
 ## Magic
