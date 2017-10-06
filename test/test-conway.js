@@ -1,3 +1,5 @@
+/* jshint undef: true, node: true, esnext: true, asi: true */
+/* global describe, it */
 'use strict'
 
 var assert = require('assert');
