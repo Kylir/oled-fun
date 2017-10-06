@@ -36,7 +36,7 @@ npm install
 ## Run the program
 
 ```sh
-node index.js
+node lib/oled-conway.js
 ```
 
 you should see a randomly generated *world* evolving every 0.3 second.
